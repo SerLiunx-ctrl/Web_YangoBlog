@@ -6,7 +6,5 @@ import javax.servlet.http.HttpServletRequest;
 
 public interface TabService {
     ModelAndView getAllTabs();
-
     ModelAndView getByTabNameEn(String type);
-
 }

@@ -45,7 +45,6 @@
     </div>
     <ul class="list-group" style="width: 100%">
         <c:forEach items="${hostTopics}" var="hotestTopic">
-
             <li class="list-group-item"><a href="${pageContext.request.contextPath}/forword/toDetails?topicId=${hotestTopic.id}">${hotestTopic.title}</a></li>
         </c:forEach>
     </ul>
