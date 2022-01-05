@@ -131,8 +131,6 @@ public class TopicServiceImp implements TopicService {
 
         //创建帖子后，进入帖子，需要返回创建帖子后的帖子ID
 
-
-
         topicMapper.insertTopicReturnId(topic);
         System.err.println("after="+topic.getId());
 
