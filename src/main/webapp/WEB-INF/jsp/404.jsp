@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>404 Not Find:(</title>
+    <title>404 Not Found!!!!!!!!(</title>
     <style>
         ::-moz-selection {
             background: #b3d4fc;
@@ -146,9 +146,9 @@
     <h1>404 Not Find<span>:(</span></h1>
     <p>对不起，您访问的页面不存在~</p>
     <p>请输入正确的地址</p>
-    <p><em id="num">3</em>秒后，自动跳转到上一页</p>
+    <p><em id="num">5</em>秒后，自动跳转到上一页</p>
     <script>
-        var i =3;
+        var i =5;
         function Countdown() {
             if(i==0){
                 window.history.back();

@@ -5,8 +5,8 @@
 <html lang="en">
 <head>
     <meta name="Content-Type"  content="text/html;charset=utf-8">
-    <meta name="keywords" content="Genesis,论坛,社区,程序员">
-    <title>Genesis - 一个分享创造的开发者社区  </title>
+    <meta name="keywords" content="阳光技术论坛">
+    <title>阳光技术论坛  </title>
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <script src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>

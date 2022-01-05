@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jkworld ›设置</title>
+    <title>阳光技术论坛 › 用户设置</title>
     <!-- jscrop -->
     <link href="${pageContext.request.contextPath}/resources/css/jquery.Jcrop.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
@@ -202,7 +202,7 @@
 <div style="width: 70%;margin:1% 2% 1% 5%;float: left;">
     <div class="panel panel-default" id="main" style="">
         <div class="panel-heading" style="background-color: white">
-            <a href="/">Jkworld</a> › 设置
+            <a href="/">阳光技术论坛</a> › 设置
         </div>
 
         <div class="panel-body">

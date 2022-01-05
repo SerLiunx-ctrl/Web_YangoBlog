@@ -10,7 +10,7 @@
     <script src="${pageContext.request.contextPath}/resources/js/popper.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/bootstrap4.0.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/wangEditor.min.js" type="text/javascript"></script>
-    <title>创作新主题 › Genesis </title>
+    <title>创作新主题 › 阳光技术论坛 </title>
 </head>
 <script>
     $(document).ready(function(){
@@ -40,7 +40,7 @@
     <div style="width: 70%;margin:1% 2% 1% 5%;float: left;">
     <div class="panel panel-default" id="main" style="">
         <div class="panel-heading" style="background-color: white">
-            <a href="/">Jkworld</a> › 创作新主题
+            <a href="/">阳光技术论坛</a> › 创作新主题
         </div>
 
         <div class="panel-body">
@@ -103,41 +103,19 @@
             <li class="list-group-item">
                 <h5>社区原则</h5>
                 <p>
-                    请不要发布违法、色情、暴力有关的文章与链接，共同营造良好社区环境。
+                    请不要发布违法、色情、暴力有关的文章与链接!
                 </p>
             </li>
 
             <li class="list-group-item">
                 <h5>联系管理</h5>
                 <p>
-        技术问题请联系qq：1013171543，欢迎大家前来交流技术问题。
+        技术问题请联系qq：17689543.
                 </p>
             </li>
         </ul>
     </div>
-
-
-    <div class="panel panel-default" id="sidebar1" style="width: 20%;margin:1% 2% 1% 0%;float: right">
-    <div class="panel-heading" style="background-color: white;text-align: center">
-        本站作者的一些碎碎念
-    </div>
-    <ul class="list-group" style="width: 100%">
-        <li class="list-group-item">
-            <h5>如果您是一位学生</h5>
-            <p>
-                请不要把时间浪费在游戏上，多一些时间学习，多一些时间跟家人沟通。
-            </p>
-        </li>
-
-        <li class="list-group-item">
-            <h5>如果您已在工作</h5>
-            <p>
-                请记住工作只是生活的一部分，请不要忽略了家人的感受，多一些时间陪陪家人，家人需要你的陪伴。
-            </p>
-        </li>
-    </ul>
 </div>
-
 
 <!-- 引入footer文件 -->
 <%@ include file="footer.jsp"%>

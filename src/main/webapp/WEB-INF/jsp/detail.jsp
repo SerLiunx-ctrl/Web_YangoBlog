@@ -14,12 +14,10 @@
    
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
-    <title>${topic.title} - Jkworld </title>
+    <title>${topic.title} - 阳光技术论坛 </title>
     
     <style type="text/css">
-    	<!-- 为段落添加换行-->
   	  .demobox{word-wrap:break-word;}
-  	  
     </style>
     
 </head>
@@ -46,19 +44,19 @@
         	<div style="margin-left: 5px">
         	
         	<c:if test="${topic.user.credit < 20}">	
-	            <span class="badge">沙雕网友</span>
+	            <span class="badge">食堂一楼</span>
 			</c:if>
 			<c:if test="${topic.user.credit >20 && topic.user.credit <40}">
-           		<span class="badge">人工智障</span>
+           		<span class="badge">食堂二楼</span>
            	</c:if>
            	<c:if test="${topic.user.credit >40 && topic.user.credit <60}">
-           		<span class="badge">智慧大脑</span>
+           		<span class="badge">食堂三楼</span>
            	</c:if>
            	<c:if test="${topic.user.credit >60 && topic.user.credit <80}">
-           		<span class="badge">高级沙雕</span>
+           		<span class="badge">食堂四楼</span>
            	</c:if>
            	<c:if test="${topic.user.credit >80}">
-           		<span class="badge">终极沙雕</span>
+           		<span class="badge">食堂五楼</span>
            	</c:if>
         	</div>
         </div>
@@ -92,19 +90,19 @@
 	                    <img width="70px" height="70px" style="margin-left: 30px" src="${pageContext.request.contextPath}/${reply.user.avatar} " class="img-rounded"><br>
 	                    <div style="margin-left: 35px">
 	                    	<c:if test="${reply.user.credit < 20}">	
-	                    		<span class="badge">沙雕网友</span>
+	                    		<span class="badge">食堂一楼</span>
 							</c:if>
 							<c:if test="${reply.user.credit >20 && reply.user.credit <40}">
-	                    		<span class="badge">人工智障</span>
+	                    		<span class="badge">食堂二楼</span>
 	                    	</c:if>
 	                    	<c:if test="${reply.user.credit >40 && reply.user.credit <60}">
-	                    		<span class="badge">智慧大脑</span>
+	                    		<span class="badge">食堂三楼</span>
 	                    	</c:if>
 	                    	<c:if test="${reply.user.credit >60 && reply.user.credit <80}">
-	                    		<span class="badge">高级沙雕</span>
+	                    		<span class="badge">食堂四楼</span>
 	                    	</c:if>
 	                    	<c:if test="${reply.user.credit >80}">
-	                    		<span class="badge">终极沙雕</span>
+	                    		<span class="badge">食堂五楼</span>
 	                    	</c:if>
 	                    </div>
 	                </div>

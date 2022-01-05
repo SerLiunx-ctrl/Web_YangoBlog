@@ -7,7 +7,7 @@
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <script src="${pageContext.request.contextPath}/resources/js/jquery-3.3.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
-    <title>Jkworld › MyTopic</title>
+    <title>阳光技术论坛 › 我的话题</title>
     <style type="text/css">
     
 	    #pageTips{

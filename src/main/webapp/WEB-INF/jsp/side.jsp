@@ -8,8 +8,8 @@
     <div class="panel panel-default" id="sidebar2" style="width: 20%;margin:1% 2% 1% 0%;float: right">
         <div class="panel-heading" style="background-color: white;text-align: center">
             <blockquote>
-                Jkworld
-                <small>一个分享创造的开发者社区</small>
+                阳光技术论坛
+                <small>阳光学院XXXXXXXXXXXX论坛</small>
             </blockquote>
         </div>
         <ul class="list-group" style="width: 100%">
@@ -27,13 +27,13 @@
     <!-- 已登录 -->
     <div class="panel panel-default" id="sidebar2" style="width: 20%;margin:1% 2% 1% 0%;float: right">
         <div class="panel-heading" style="background-color: white;text-align: center">
-            <a href="${pageContext.request.contextPath}/user/userInfoid/${user.id}">${user.username}</a>
+            <a href="${pageContext.request.contextPath}/user/userInfoid/${user.id}">用户名: ${user.username}</a>
         </div>
         <ul class="list-group" style="width: 100%">
             <li class="list-group-item"><a href="${pageContext.request.contextPath}/forword/toNew">发帖</a></li>
             <li class="list-group-item"><a href="${pageContext.request.contextPath}/user/myTopic.action?id=${user.id}&&starPage=1">我的帖子</a></li>
             <li class="list-group-item"><a href="">0条未读提醒</a></li>
-            <li class="list-group-item"><a href="">积分:${user.credit}</a></li>
+            <li class="list-group-item"><a href="">用户积分积分:${user.credit}</a></li>
         </ul>
     </div>
 </shiro:authenticated>
