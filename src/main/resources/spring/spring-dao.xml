@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="jkworld.dao"/>
+    <context:component-scan base-package="me.serliunx.dao"/>
     <context:property-placeholder location="classpath:others/jdbc.properties"/>
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <property name="connectionInitSqls" value="set names utf8mb4;"/>
@@ -40,7 +40,7 @@
     </bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
-        <property name="basePackage" value="jkworld.dao"/>
+        <property name="basePackage" value="me.serliunx.dao"/>
     </bean>
 
 
