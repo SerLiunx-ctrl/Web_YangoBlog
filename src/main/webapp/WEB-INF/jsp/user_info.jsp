@@ -7,7 +7,7 @@
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <script src="${pageContext.request.contextPath}/resources/js/jquery-3.3.1.min.js"></script>
     <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
-    <title>Jkworld › <c:if test="${!empty user}">${userInfo.username}</c:if></title>
+    <title>阳光技术论坛 › <c:if test="${!empty user}">${userInfo.username}</c:if></title>
 </head>
 <body>
 <!-- 引入header文件 -->

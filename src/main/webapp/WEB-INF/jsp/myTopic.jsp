@@ -55,7 +55,7 @@
 <div style="width: 70%;margin:1% 2% 1% 5%;float: left;">
     <div class="panel panel-default" id="main" style="">
         <div class="panel-heading" style="background-color: white">
-            <a href="${pageContext.request.contextPath}/resources/jsp/category.jsp">Jkworld</a> › ${user.username}
+            <a href="${pageContext.request.contextPath}/resources/jsp/category.jsp">阳光技术论坛</a> › ${user.username}
         </div>
 
         <div class="panel-body">

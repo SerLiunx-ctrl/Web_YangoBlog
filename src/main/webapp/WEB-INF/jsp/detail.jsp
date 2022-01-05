@@ -29,7 +29,7 @@
     <div class="panel-heading" style="background-color: white">
         <div>
             <div class="panel-heading" style="background-color: white">
-                <a href="${pageContext.request.contextPath}/">Jkworld</a> › 主题
+                <a href="${pageContext.request.contextPath}/">阳光技术论坛</a> › 主题
             </div>
             <h3>${topic.title}</h3><br/>
             <div>
