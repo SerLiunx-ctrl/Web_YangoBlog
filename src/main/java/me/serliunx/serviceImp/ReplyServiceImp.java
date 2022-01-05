@@ -9,12 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Date;
 
-/**
- * Demo ReplyServiceImp
- *
- * @author root
- * @date 2019/9/10
- */
 @Service(value ="replyServiceImp")
 public class ReplyServiceImp implements ReplyService {
 

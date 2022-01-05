@@ -8,12 +8,6 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Demo CheckController
- *
- * @author root
- * @date 2019/9/12
- */
 @Controller
 public class CheckController {
 

@@ -21,7 +21,6 @@ public class CheckServiceImp implements CheckService {
 	public boolean checkUser(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		// TODO Auto-generated method stub
 
-		
 		String username =request.getParameter("username");
 		
 		//查找用户名是否已经被注册

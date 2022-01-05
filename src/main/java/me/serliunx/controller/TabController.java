@@ -8,12 +8,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 
-/**
- * Demo TabController
- *
- * @author root
- * @date 2019/9/8
- */
 @Controller
 public class TabController {
 
@@ -25,7 +19,7 @@ public class TabController {
     public ModelAndView selectTab(@PathVariable("tab.tabNameEn") String type){
 
         System.out.println("type ="+type);
-        //进入指定板块
+        //进入特定板块
         ModelAndView model = tabService.getByTabNameEn(type);
 
         return model;

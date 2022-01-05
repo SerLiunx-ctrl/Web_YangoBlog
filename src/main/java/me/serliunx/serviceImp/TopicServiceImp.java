@@ -21,12 +21,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Demo ReplyServiceImp
- *
- * @author root
- * @date 2019/9/10
- */
 @Service(value = "topicServiceImp")
 public class TopicServiceImp implements TopicService {
 

@@ -26,12 +26,6 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Random;
 
-/**
- * Demo ReplyServiceImp
- *
- * @author root
- * @date 2019/9/10
- */
 @Service(value = "userServiceImp")
 public class UserServiceImp implements UserService {
 

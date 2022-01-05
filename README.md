@@ -2,17 +2,17 @@
 
 ## 架构：
 
-  * Spring
-  * SpringMVC
-  * Mybatis
-  * Shiro
+  * **Spring**
+  * **SpringMVC**
+  * **Mybatis**
+  * **Shiro**
 
 ## 环境：
 
-  * Idea
-  * Maven
-  * MySQL
-  * Tomcat
+  * **Idea**
+  * **Maven**
+  * **MySQL**
+  * **Tomcat**
 
 ## 小组成员:
   * 王琪涵

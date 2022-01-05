@@ -12,12 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Demo ShiroRealm
- *
- * @author root
- * @date 2019/9/8
- */
 public class ShiroRealm extends AuthorizingRealm {
 
     @Autowired

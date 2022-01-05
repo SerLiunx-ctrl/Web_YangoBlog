@@ -64,15 +64,7 @@ public class UserController {
     public void createImgToken(HttpServletRequest request, HttpServletResponse response) throws Exception{
         verificationService.verificateImgToken(request, response);
     }
-    /*
-    @RequestMapping("/user/createPhoneToken")
-    public void createPhoneToken(HttpServletRequest request, HttpServletResponse response) throws Exception{
-        //先验证图片验证码是否正确，如果正确才让发送短信
-        if(verificationService.checkImgToken(request, response)){
-            verificationService.verificatePhoneToken(request);
-        }
-    }
-    */
+
     @RequestMapping("/user/cutImg")
     public void cutImg(HttpServletRequest req, HttpServletResponse response, MultipartFile file) throws IllegalStateException, IOException {
 
@@ -81,7 +73,7 @@ public class UserController {
 
     @RequestMapping("/user/regist")
     public ModelAndView regist(HttpServletRequest request, HttpServletResponse response, ModelAndView model, User user) throws Exception{
-        System.out.println("用户注册*******************************");
+        System.out.println("用户注册!!!!!");
         ModelAndView returnModel = userService.addUser(request,response,model, user);
         return returnModel;
 
@@ -89,10 +81,7 @@ public class UserController {
 
     @RequestMapping("/user/myTopic")
     public ModelAndView myTopic(HttpServletRequest request) throws Exception {
-
-
         ModelAndView model = topicService.UserTopics(request);
-
         return model;
     }
 

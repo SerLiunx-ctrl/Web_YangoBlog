@@ -14,12 +14,6 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * Demo ForwardController
- *
- * @author root
- * @date 2019/9/10
- */
 @Controller
 public class ForwardController
 {

@@ -11,12 +11,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
-/**
- * Demo ReplyService
- *
- * @author root
- * @date 2019/9/10
- */
 @Service(value = "tabServiceImp")
 public class TabServiceImp implements TabService {
     @Autowired

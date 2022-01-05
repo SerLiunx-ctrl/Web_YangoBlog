@@ -8,12 +8,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 
-/**
- * Demo ReplyService
- *
- * @author root
- * @date 2019/9/8
- */
 @Controller
 public class ReplyController {
 
