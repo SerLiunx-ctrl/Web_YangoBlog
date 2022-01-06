@@ -113,6 +113,7 @@ public class Topic {
 	public void setContent(String content) {
 		this.content = content;
 	}
+
 	//创建本地时间，用于jsp页面时间的展示
 	public String getLocalCreateTime() {
         SimpleDateFormat df = new SimpleDateFormat("yyyy-M-dd HH:mm:ss");//设置日期格式

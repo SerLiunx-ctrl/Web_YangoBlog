@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 
-
 @Service(value ="basicFunctionService")
 public class BasicFunctionService {
 

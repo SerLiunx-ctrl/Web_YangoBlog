@@ -18,13 +18,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-/**
- * Demo UserController
- *
- * @author root
- * @date 2019/9/7
- */
 @Controller
 public class UserController {
 

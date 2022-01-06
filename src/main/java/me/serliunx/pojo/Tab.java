@@ -31,7 +31,6 @@ public class Tab {
         this.tabNameEn = tabNameEn == null ? null : tabNameEn.trim();
     }
 
-
     @Override
     public String toString() {
         return "Tab{" +

@@ -4,7 +4,6 @@
 
 
 <shiro:notAuthenticated>
-    <!-- 未登录 -->
     <div class="panel panel-default" id="sidebar2" style="width: 20%;margin:1% 2% 1% 0%;float: right">
         <div class="panel-heading" style="background-color: white;text-align: center">
             <blockquote>

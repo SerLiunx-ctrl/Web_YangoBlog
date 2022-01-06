@@ -8,5 +8,5 @@ public class IpUtils {
 	            return request.getRemoteAddr();
 	        }
 	        return request.getHeader("x-forwarded-for");
-	    }
+	 }
 }
