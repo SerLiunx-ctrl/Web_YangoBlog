@@ -23,6 +23,7 @@ public class UserController {
 
     @Resource(name = "userServiceImp")
     private UserService userService;
+
     @Autowired
     private UserMapper userMapper;
 
@@ -60,13 +61,11 @@ public class UserController {
 
     @RequestMapping("/user/cutImg")
     public void cutImg(HttpServletRequest req, HttpServletResponse response, MultipartFile file) throws IllegalStateException, IOException {
-
         basicFunctionService.getStringFromStream(req, response,file);
     }
 
     @RequestMapping("/user/regist")
     public ModelAndView regist(HttpServletRequest request, HttpServletResponse response, ModelAndView model, User user) throws Exception{
-        System.out.println("用户注册!!!!!");
         ModelAndView returnModel = userService.addUser(request,response,model, user);
         return returnModel;
 

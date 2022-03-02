@@ -119,9 +119,15 @@ CREATE TABLE `user`  (
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = MyISAM AUTO_INCREMENT = 41 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
+CREATE TABLE `admin`  (
+    `adminType` varchar(50) NULL COMMENT '管理员类型',
+    `adminUUID` varchar(50) NOT NULL COMMENT '管理员类型'
+) ENGINE = MyISAM AUTO_INCREMENT = 41 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+
 -- ----------------------------
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES (40, 'serliunx', 'e10adc3949ba59abbe56e057f20f883e', 'serliunx@yeah.net', '17689674149', '2022-01-05 18:20:17', '2022-01-05 19:16:55', 4, 'resources/images/avatar-default-5.png', 0);
+INSERT INTO `admin` VALUES ('topAdmin','a');
 
 SET FOREIGN_KEY_CHECKS = 1;
