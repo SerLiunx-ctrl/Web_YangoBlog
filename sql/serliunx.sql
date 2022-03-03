@@ -119,11 +119,6 @@ CREATE TABLE `user`  (
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = MyISAM AUTO_INCREMENT = 41 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
-CREATE TABLE `admin`  (
-    `adminType` varchar(50) NULL COMMENT '管理员类型',
-    `adminUUID` varchar(50) NOT NULL COMMENT '管理员类型'
-) ENGINE = MyISAM AUTO_INCREMENT = 41 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
-
 -- ----------------------------
 -- Records of user
 -- ----------------------------
